@@ -141,7 +141,7 @@ function CryptoWidget({ baseAsset, targetAsset, currentUnits, targetUnits, minUn
           <div style={{fontSize:13,fontWeight:900,color:'white',fontFamily:'monospace',fontStyle:'italic'}}>{baseAsset} <span style={{color:'#6366f1'}}>➔</span> {targetAsset}</div>
         </div>
         <div style={{padding:'6px 12px',borderRadius:16,fontSize:11,fontWeight:900,border:'1px solid',borderColor:isTargetReached?'rgba(34,197,94,0.5)':isNear?'rgba(239,68,68,0.5)':'rgba(99,102,241,0.4)',color:isTargetReached?'#4ade80':isNear?'#f87171':'#818cf8',background:isTargetReached?'rgba(34,197,94,0.2)':isNear?'rgba(239,68,68,0.2)':'rgba(99,102,241,0.2)'}}>
-          {isTargetReached?'¡META!`:`${progress.toFixed(1)}%`}
+          {isTargetReached?'¡META!':`${progress.toFixed(1)}%`}
         </div>
       </div>
 
